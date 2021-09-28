@@ -1,0 +1,108 @@
+#welcome-section{
+  text-align: center; 
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-family:'Tangerine', cursive;
+  font-size: 50px;
+  flex-direction: column; 
+  padding: 0;
+  margin: 0;
+   background-color: Green; 
+   background-image: linear-gradient(blue, purple);
+   height:100vh;
+   
+}
+  
+#navbar :hover{
+  color:#40E0D0
+}
+   
+ 
+   #navbar{
+    display:flex;
+    font-size 30px;
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    padding: 5px;
+    background-color: red;
+    font-size:25px;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    
+   }
+   
+
+ .nav-link{
+     display:block;
+     padding-right: 40px;
+     Font-size 50px;
+     text-transform:uppercase;
+     text-align: center; 
+   }
+
+#About{
+  text-align:center;
+}
+
+#projects {
+  text-align:center;
+  background-color:#7FFFD4;
+  padding: 6px;
+  max-width: 2900px;
+  padding: 0px;
+  display:Grid;
+  
+
+}
+
+
+#project-tile{
+  display:grid;
+}
+
+
+
+.Para{
+  text-align: center;
+  color:Yellow;
+  display:
+  
+}
+
+img{
+ width:250px;
+ height: 150px;
+ display: flex;
+ max-width: 700px;
+ margin-left: auto;
+ margin-right: auto;
+
+}
+
+@media only screen and (max-width: 530px;){
+  
+  #nav-bar {padding: 15px;}
+  #nav-bar a {font-size: 18px;}
+}
+
+#About{
+  background-color:blue;
+  padding-left 30px;
+  background-image: linear-gradient(red, blue)
+    
+
+}
+
+a:hover{
+  text-decoration: none;
+}
+  a:link {
+  color: blue;
+}
+
+#First{
+  Color:#1E90FF;
+
+}
